@@ -131,13 +131,11 @@ class InvokeGenerativeAI {
 	settings: MyPluginSettings;
 	view: MarkdownView;
 	editor: Editor;
-	ev: EditorView;
 
 	constructor(settings: MyPluginSettings, view: MarkdownView, editor: Editor) {
 		this.settings = settings
 		this.view = view
 		this.editor = editor
-		this.ev = view.editor.cm
 	}
 
 
